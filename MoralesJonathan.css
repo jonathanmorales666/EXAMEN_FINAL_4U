@@ -1,0 +1,47 @@
+/* Jonathan Gabriel Morales Torres - 10*/
+/* Estilo de todo nuestro documento*/
+
+body {
+    background-color: rgb(112, 39, 39);
+    margin:30;
+    padding: 0;
+}
+
+h1 {
+    font-family: Verdana;
+    ;
+    margin-top: 100;
+    color: #ebb044
+}
+
+.contenedor_libros {
+    display: grid;
+    border: 20px;
+    border-color: #ee9b00;
+    grid-template-columns: repeat(5, 1fr);
+    gap:30px;
+}
+
+.contenedor_libros h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blanchedalmond;
+   
+}
+
+.libro{background-color: rgb(231, 158, 0);
+    border-color: rgb(141, 98, 46);
+    border: #ebb044;
+    border-radius: 5px;
+}
+
+.libro:hover{
+    transform: scale(1.1);
+}
+
+.no_disponible{
+    color: rgb(190, 81, 81);
+}
+
+.disponible{
+    color: rgb(75, 184, 108);
+}
